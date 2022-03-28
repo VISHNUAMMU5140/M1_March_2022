@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 float series_resistance(int res1[],int num1)
-    { 
+    {   printf("Series function works for all values");
         int Rs=0;
         for (int i=0; i<num1 ; i++)
         {
@@ -11,7 +11,7 @@ float series_resistance(int res1[],int num1)
     }
 
 static float parallel_resistance(int res2[],int num2)
-    {   
+    {   printf("Parallel function works for all values");
         float Rp;
         static float temp;
         for (int i = 0; i < num2; i++)
@@ -74,7 +74,7 @@ if(x==1)
 {   
     
     int r1[10], n1, i, Rs = 0;
-    printf("Enter the number of Resistances :  ");
+        printf("Enter the number of Resistances :  ");
     scanf("%d", &n1);
     printf("\nEnter Value of Each Resistance : ");
     for (i = 0; i < n1; i++) 
