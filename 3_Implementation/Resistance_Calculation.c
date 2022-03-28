@@ -64,7 +64,9 @@ void test_parallel_resistance()
 int main()
 {   
     int x;   
-    float ans; 
+    float ans;
+    void test_series_resistance() ;
+    void test_parallel_resistance();
     printf("Press 1 for Series and 2 for parallel : ");
     scanf("%d",&x);
 
