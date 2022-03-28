@@ -33,7 +33,9 @@ void test_series_resistance()
     else
         printf("Series resistance function has some issue for null value");
 
-    int arr1 = {1,1};
+    int arr1[2];
+    arr1[0]=1;
+    arr1[1]=1;
     if (2 == series_resistance(arr1,2))
         printf("Series resistance works for positive numbers");
     else
@@ -42,7 +44,9 @@ void test_series_resistance()
 }
 void test_parallel_resistance()
 {   
-    int arr2 = {0,0};
+    int arr2[2];
+    arr2[0]=0;
+    arr2[1]=0;
     if(0 == parallel_resistance(arr2,2))
         printf("Parallel resistance function works for null value");
     else
