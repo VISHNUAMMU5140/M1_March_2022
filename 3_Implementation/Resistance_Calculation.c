@@ -25,7 +25,7 @@ static float parallel_resistance(int res2[],int num2)
 
 void test_series_resistance()
 {  
-    int arr[];
+    int arr[2];
     arr[0]=0;
     arr[1]=0;
     if(0 == series_resistance(arr,2))
