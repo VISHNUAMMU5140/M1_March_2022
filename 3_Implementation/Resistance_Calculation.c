@@ -25,7 +25,9 @@ static float parallel_resistance(int res2[],int num2)
 
 void test_series_resistance()
 {  
-    int arr={0,0} ;
+    int arr[];
+    arr[0]=0;
+    arr[1]=0;
     if(0 == series_resistance(arr,2))
         printf("Series resistance function works for null value");
     else
