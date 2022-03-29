@@ -7,3 +7,6 @@ Project: M1_"To find the total resistance value of a series or a parallel circui
  * CODIGA - STATIC CODE ANALYSIS
   ![Quality](https://api.codiga.io/project/32194/score/svg)
   
+  
+  * CPPCHECK - [![cppcheck](https://github.com/VISHNUAMMU5140/M1_March_2022/actions/workflows/cpp.yml/badge.svg)](https://github.com/VISHNUAMMU5140/M1_March_2022/actions/workflows/cpp.yml)
+  
