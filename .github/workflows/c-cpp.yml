@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: make -C M1_March_2022/3_Implementation/
+      run: sudo apt-get update
     
