@@ -9,4 +9,5 @@ Project: M1_"To find the total resistance value of a series or a parallel circui
   
   
   * CPPCHECK - [![cppcheck](https://github.com/VISHNUAMMU5140/M1_March_2022/actions/workflows/cpp.yml/badge.svg)](https://github.com/VISHNUAMMU5140/M1_March_2022/actions/workflows/cpp.yml)
+  * BUILD CI LINUX - [![Build CI - Linux](https://github.com/VISHNUAMMU5140/M1_March_2022/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/VISHNUAMMU5140/M1_March_2022/actions/workflows/c-cpp.yml)
   
