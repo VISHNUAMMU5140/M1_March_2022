@@ -1,6 +1,7 @@
 #include "stdio.h"
 
-float series_resistance(int res1[],int num1)
+// Function to calculate the series resistance based on the formula Rs= R1+R2+...+Rn
+ float series_resistance(int res1[],int num1) 
     {   
         int Rs=0;
         for (int i=0; i<num1 ; i++)
@@ -10,6 +11,8 @@ float series_resistance(int res1[],int num1)
         return Rs;
     }
 
+// static has been added in order to store temporary values
+// Function to calculate parallel resistance based on the formula Rp= (1)/((1/R1)+(1/R2)+(1/R3)+...+(1/Rn))
 static float parallel_resistance(int res2[],int num2)
     {   
         float Rp;
@@ -23,6 +26,7 @@ static float parallel_resistance(int res2[],int num2)
     return temp;
     }
 
+//Test function for series resistance
 void test_series_resistance()
 {  
     int arr[2];
@@ -42,6 +46,8 @@ void test_series_resistance()
         printf("Series resistance function has some issue for positive values");
            
 }
+
+// Test function for parallel resistance
 void test_parallel_resistance()
 {   
     int arr2[2];
@@ -60,7 +66,7 @@ void test_parallel_resistance()
      //      
 }
 
-
+// main function
 int main()
 {   
     int x;   
@@ -72,6 +78,7 @@ int main()
     printf("Press 1 for Series and 2 for parallel : ");
     scanf("%d",&x);
 
+// case 1 for getting user input and calling series function
 if(x==1)
 {   
     
@@ -88,6 +95,7 @@ if(x==1)
     printf("The total resistance is: %.3f\n",ans);
     
 }
+//  case 2 for getting user input and calling parallel function
 else if (x==2)
 {
    
@@ -105,6 +113,7 @@ else if (x==2)
     printf("The total resistance is: %.3f\n",ans);
     
 }
+// default case to produce invalid output
 else
 printf("Invalid input");
 return 0;
